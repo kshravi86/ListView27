@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="dexmaker-mockito-1.1-custom">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/dexmaker-mockito-1.1-custom.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

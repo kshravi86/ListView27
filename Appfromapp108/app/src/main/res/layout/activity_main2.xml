@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="81dp"
+        android:text="Quetions"
+        android:textSize="54dp"
+        android:fontFamily="cursive"
+        android:textColor="#FF0000"
+        android:textAlignment="center"
+        />
+
+    <ListView
+        android:id="@+id/mobile_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="#7E4155"
+        android:verticalScrollbarPosition="right"
+        android:dividerHeight="4dp"
+        android:background="#FF7F50"
+        >
+    </ListView>
+
+</LinearLayout>

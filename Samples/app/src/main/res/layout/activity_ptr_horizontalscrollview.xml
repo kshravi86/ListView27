@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.haarman.listviewanimations.samples.PullToRefreshHorizontalScrollView
+        xmlns:ptr="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/pull_refresh_horizontalscrollview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal" >
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:background="#ff99cc00" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:background="#ffff4444" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:background="#ff33b5e5" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:background="#ffcc0000" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:background="#ffffbb33" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:background="#ff00ddff" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:background="#ff669900" />
+        </LinearLayout>
+
+    </com.haarman.listviewanimations.samples.PullToRefreshHorizontalScrollView>
+
+</LinearLayout>

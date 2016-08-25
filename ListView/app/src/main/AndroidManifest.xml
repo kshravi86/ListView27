@@ -1,0 +1,305 @@
+<!--
+  ~ Copyright 2014 Niek Haarman
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~ http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<manifest
+    package="com.balaji.aakash"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="com.android.vending.BILLING" />
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="20"
+        tools:ignore="GradleOverrides,OldTargetApi" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/balaji"
+        android:label="BalajiVishwanthan"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.balaji.aakash.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.balaji.aakash.FirstActivity"></activity>
+        <activity
+            android:name="com.balaji.aakash.appearance.AppearanceExamplesActivity"
+            android:label="@string/appearance" />
+        <activity
+            android:name="com.balaji.aakash.googlecards.GoogleCardsActivity"
+            android:label="@string/googlecards" />
+        <activity
+            android:name="com.balaji.aakash.itemmanipulation.ItemManipulationsExamplesActivity"
+            android:label="@string/itemmanipulation" />
+        <activity
+            android:name="com.balaji.aakash.itemmanipulation.DynamicListViewActivity"
+            android:label="@string/dynamiclistview" />
+        <activity
+            android:name="com.balaji.aakash.gridview.GridViewActivity"
+            android:label="@string/gridviewexample" />
+        <activity
+            android:name="com.balaji.aakash.itemmanipulation.expandablelistitems.ExpandableListItemActivity"
+            android:label="@string/expandablelistitemadapter" />
+        <activity
+            android:name="com.balaji.aakash.StickyListHeadersActivity"
+            android:label="@string/stickylistheaders" />
+        <activity android:name="com.balaji.aakash.MyListActivity"/>
+        <activity android:name="com.balaji.aakash.BaseActivity"/>
+		<activity android:name="com.balaji.aakash.SecondActivity"></activity>
+
+        <activity android:name="com.balaji.aakash.ThirdActivity"></activity>
+        <activity android:name="com.balaji.aakash.FourthActivity"></activity>
+
+        <activity android:name="com.balaji.aakash.FifthActivity"></activity>
+        <activity android:name="com.balaji.aakash.SixthActivity"></activity>
+        <activity android:name="com.balaji.aakash.SeventhActivity"></activity>
+        <activity android:name="com.balaji.aakash.EighthActivity"></activity>
+        <activity android:name="com.balaji.aakash.NinthActivity"></activity>
+        <activity android:name="com.balaji.aakash.TenthActivity"></activity>
+        <activity android:name="com.balaji.aakash.EleventhActivity"></activity>
+        <activity android:name="com.balaji.aakash.TwelthActivity"></activity>
+        <activity android:name="com.balaji.aakash.ThirteenthActivity"></activity>
+        <activity android:name="com.balaji.aakash.FourteenthActivity"></activity>
+        <activity android:name="com.balaji.aakash.FifteenthActivity"></activity>
+        <activity android:name="com.balaji.aakash.SixteenthActivity"></activity>
+        <activity android:name="com.balaji.aakash.SeventeenthActivity"></activity>
+        <activity android:name="com.balaji.aakash.EighteenthActivity"></activity>
+
+
+
+        <activity android:name="com.balaji.aakash.First1"></activity>
+        <activity android:name="com.balaji.aakash.First2"></activity>
+        <activity android:name="com.balaji.aakash.First3"></activity>
+        <activity android:name="com.balaji.aakash.First4"></activity>
+        <activity android:name="com.balaji.aakash.First5"></activity>
+        <activity android:name="com.balaji.aakash.First6"></activity>
+        <activity android:name="com.balaji.aakash.First7"></activity>
+        <activity android:name="com.balaji.aakash.First8"></activity>
+        <activity android:name="com.balaji.aakash.First9"></activity>
+
+        <activity android:name="com.balaji.aakash.Second1"></activity>
+        <activity android:name="com.balaji.aakash.Second2"></activity>
+        <activity android:name="com.balaji.aakash.Second3"></activity>
+        <activity android:name="com.balaji.aakash.Second4"></activity>
+        <activity android:name="com.balaji.aakash.Second5"></activity>
+        <activity android:name="com.balaji.aakash.Second6"></activity>
+        <activity android:name="com.balaji.aakash.Second7"></activity>
+        <activity android:name="com.balaji.aakash.Second8"></activity>
+        <activity android:name="com.balaji.aakash.Second9"></activity>
+
+        <activity android:name="com.balaji.aakash.Third1"></activity>
+        <activity android:name="com.balaji.aakash.Third2"></activity>
+        <activity android:name="com.balaji.aakash.Third3"></activity>
+        <activity android:name="com.balaji.aakash.Third4"></activity>
+        <activity android:name="com.balaji.aakash.Third5"></activity>
+        <activity android:name="com.balaji.aakash.Third6"></activity>
+        <activity android:name="com.balaji.aakash.Third7"></activity>
+        <activity android:name="com.balaji.aakash.Third8"></activity>
+        <activity android:name="com.balaji.aakash.Third9"></activity>
+
+        <activity android:name="com.balaji.aakash.Fourth1"></activity>
+        <activity android:name="com.balaji.aakash.Fourth2"></activity>
+        <activity android:name="com.balaji.aakash.Fourth3"></activity>
+        <activity android:name="com.balaji.aakash.Fourth4"></activity>
+        <activity android:name="com.balaji.aakash.Fourth5"></activity>
+        <activity android:name="com.balaji.aakash.Fourth6"></activity>
+        <activity android:name="com.balaji.aakash.Fourth7"></activity>
+        <activity android:name="com.balaji.aakash.Fourth8"></activity>
+        <activity android:name="com.balaji.aakash.Fourth9"></activity>
+
+
+        <activity android:name="com.balaji.aakash.Fifth1"></activity>
+        <activity android:name="com.balaji.aakash.Fifth2"></activity>
+        <activity android:name="com.balaji.aakash.Fifth3"></activity>
+        <activity android:name="com.balaji.aakash.Fifth4"></activity>
+        <activity android:name="com.balaji.aakash.Fifth5"></activity>
+        <activity android:name="com.balaji.aakash.Fifth6"></activity>
+        <activity android:name="com.balaji.aakash.Fifth7"></activity>
+        <activity android:name="com.balaji.aakash.Fifth8"></activity>
+        <activity android:name="com.balaji.aakash.Fifth9"></activity>
+
+        <activity android:name="com.balaji.aakash.Sixth1"></activity>
+        <activity android:name="com.balaji.aakash.Sixth2"></activity>
+        <activity android:name="com.balaji.aakash.Sixth3"></activity>
+        <activity android:name="com.balaji.aakash.Sixth4"></activity>
+        <activity android:name="com.balaji.aakash.Sixth5"></activity>
+        <activity android:name="com.balaji.aakash.Sixth6"></activity>
+        <activity android:name="com.balaji.aakash.Sixth7"></activity>
+        <activity android:name="com.balaji.aakash.Sixth8"></activity>
+        <activity android:name="com.balaji.aakash.Sixth9"></activity>
+
+        <activity android:name="com.balaji.aakash.Seventh1"></activity>
+        <activity android:name="com.balaji.aakash.Seventh2"></activity>
+        <activity android:name="com.balaji.aakash.Seventh3"></activity>
+        <activity android:name="com.balaji.aakash.Seventh4"></activity>
+        <activity android:name="com.balaji.aakash.Seventh5"></activity>
+        <activity android:name="com.balaji.aakash.Seventh6"></activity>
+        <activity android:name="com.balaji.aakash.Seventh7"></activity>
+        <activity android:name="com.balaji.aakash.Seventh8"></activity>
+        <activity android:name="com.balaji.aakash.Seventh9"></activity>
+
+        <activity android:name="com.balaji.aakash.Eighth1"></activity>
+        <activity android:name="com.balaji.aakash.Eighth2"></activity>
+        <activity android:name="com.balaji.aakash.Eighth3"></activity>
+        <activity android:name="com.balaji.aakash.Eighth4"></activity>
+        <activity android:name="com.balaji.aakash.Eighth5"></activity>
+        <activity android:name="com.balaji.aakash.Eighth6"></activity>
+        <activity android:name="com.balaji.aakash.Eighth7"></activity>
+        <activity android:name="com.balaji.aakash.Eighth8"></activity>
+        <activity android:name="com.balaji.aakash.Eighth9"></activity>
+
+
+        <activity android:name="com.balaji.aakash.Ninth1"></activity>
+        <activity android:name="com.balaji.aakash.Ninth2"></activity>
+        <activity android:name="com.balaji.aakash.Ninth3"></activity>
+
+
+
+        <activity android:name="com.balaji.aakash.Tenth1"></activity>
+        <activity android:name="com.balaji.aakash.Tenth2"></activity>
+        <activity android:name="com.balaji.aakash.Tenth3"></activity>
+        <activity android:name="com.balaji.aakash.Tenth4"></activity>
+        <activity android:name="com.balaji.aakash.Tenth5"></activity>
+        <activity android:name="com.balaji.aakash.Tenth6"></activity>
+        <activity android:name="com.balaji.aakash.Tenth7"></activity>
+        <activity android:name="com.balaji.aakash.Tenth8"></activity>
+        <activity android:name="com.balaji.aakash.Tenth9"></activity>
+
+        <activity android:name="com.balaji.aakash.Eleventh1"></activity>
+        <activity android:name="com.balaji.aakash.Eleventh2"></activity>
+        <activity android:name="com.balaji.aakash.Eleventh3"></activity>
+        <activity android:name="com.balaji.aakash.Eleventh4"></activity>
+        <activity android:name="com.balaji.aakash.Eleventh5"></activity>
+        <activity android:name="com.balaji.aakash.Eleventh6"></activity>
+        <activity android:name="com.balaji.aakash.Eleventh7"></activity>
+        <activity android:name="com.balaji.aakash.Eleventh8"></activity>
+        <activity android:name="com.balaji.aakash.Eleventh9"></activity>
+
+        <activity android:name="com.balaji.aakash.Twelth1"></activity>
+        <activity android:name="com.balaji.aakash.Twelth2"></activity>
+        <activity android:name="com.balaji.aakash.Twelth3"></activity>
+        <activity android:name="com.balaji.aakash.Twelth4"></activity>
+        <activity android:name="com.balaji.aakash.Twelth5"></activity>
+        <activity android:name="com.balaji.aakash.Twelth6"></activity>
+        <activity android:name="com.balaji.aakash.Twelth7"></activity>
+        <activity android:name="com.balaji.aakash.Twelth8"></activity>
+        <activity android:name="com.balaji.aakash.Twelth9"></activity>
+
+        <activity android:name="com.balaji.aakash.Thirteenth1"></activity>
+        <activity android:name="com.balaji.aakash.Thirteenth2"></activity>
+        <activity android:name="com.balaji.aakash.Thirteenth3"></activity>
+        <activity android:name="com.balaji.aakash.Thirteenth4"></activity>
+        <activity android:name="com.balaji.aakash.Thirteenth5"></activity>
+        <activity android:name="com.balaji.aakash.Thirteenth6"></activity>
+        <activity android:name="com.balaji.aakash.Thirteenth7"></activity>
+        <activity android:name="com.balaji.aakash.Thirteenth8"></activity>
+        <activity android:name="com.balaji.aakash.Thirteenth9"></activity>
+
+        <activity android:name="com.balaji.aakash.Fourteenth1"></activity>
+        <activity android:name="com.balaji.aakash.Fourteenth2"></activity>
+        <activity android:name="com.balaji.aakash.Fourteenth3"></activity>
+        <activity android:name="com.balaji.aakash.Fourteenth4"></activity>
+        <activity android:name="com.balaji.aakash.Fourteenth5"></activity>
+        <activity android:name="com.balaji.aakash.Fourteenth6"></activity>
+        <activity android:name="com.balaji.aakash.Fourteenth7"></activity>
+        <activity android:name="com.balaji.aakash.Fourteenth8"></activity>
+        <activity android:name="com.balaji.aakash.Fourteenth9"></activity>
+
+        <activity android:name="com.balaji.aakash.Fifteenth1"></activity>
+        <activity android:name="com.balaji.aakash.Fifteenth2"></activity>
+        <activity android:name="com.balaji.aakash.Fifteenth3"></activity>
+        <activity android:name="com.balaji.aakash.Fifteenth4"></activity>
+        <activity android:name="com.balaji.aakash.Fifteenth5"></activity>
+        <activity android:name="com.balaji.aakash.Fifteenth6"></activity>
+        <activity android:name="com.balaji.aakash.Fifteenth7"></activity>
+        <activity android:name="com.balaji.aakash.Fifteenth8"></activity>
+        <activity android:name="com.balaji.aakash.Fifteenth9"></activity>
+
+        <activity android:name="com.balaji.aakash.Sixteenth1"></activity>
+        <activity android:name="com.balaji.aakash.Sixteenth2"></activity>
+        <activity android:name="com.balaji.aakash.Sixteenth3"></activity>
+        <activity android:name="com.balaji.aakash.Sixteenth4"></activity>
+        <activity android:name="com.balaji.aakash.Sixteenth5"></activity>
+        <activity android:name="com.balaji.aakash.Sixteenth6"></activity>
+        <activity android:name="com.balaji.aakash.Sixteenth7"></activity>
+        <activity android:name="com.balaji.aakash.Sixteenth8"></activity>
+        <activity android:name="com.balaji.aakash.Sixteenth9"></activity>
+
+        <activity android:name="com.balaji.aakash.Seventeenth1"></activity>
+        <activity android:name="com.balaji.aakash.Seventeenth2"></activity>
+        <activity android:name="com.balaji.aakash.Seventeenth3"></activity>
+        <activity android:name="com.balaji.aakash.Seventeenth4"></activity>
+        <activity android:name="com.balaji.aakash.Seventeenth5"></activity>
+        <activity android:name="com.balaji.aakash.Seventeenth6"></activity>
+        <activity android:name="com.balaji.aakash.Seventeenth7"></activity>
+        <activity android:name="com.balaji.aakash.Seventeenth8"></activity>
+        <activity android:name="com.balaji.aakash.Seventeenth9"></activity>
+
+		<activity android:name="com.balaji.aakash.Eighteenth1"></activity>
+        <activity android:name="com.balaji.aakash.Eighteenth2"></activity>
+        <activity android:name="com.balaji.aakash.Eighteenth3"></activity>
+        <activity android:name="com.balaji.aakash.Eighteenth4"></activity>
+        <activity android:name="com.balaji.aakash.Eighteenth5"></activity>
+        <activity android:name="com.balaji.aakash.Eighteenth6"></activity>
+        <activity android:name="com.balaji.aakash.Eighteenth7"></activity>
+        <activity android:name="com.balaji.aakash.Eighteenth8"></activity>
+        <activity android:name="com.balaji.aakash.Eighteenth9"></activity>
+
+		
+		<activity android:name="com.balaji.aakash.NoBoringActionBarActivity"></activity>
+		
+		
+		<activity android:name="com.balaji.aakash.NoBoringActionBarActivity9"></activity>
+
+		<activity android:name="com.balaji.aakash.SecondActivity18"></activity>
+
+
+		<activity android:name="com.balaji.aakash.SeventeenthActivity18"></activity>
+
+
+		<activity android:name="com.balaji.aakash.TwelthActivity18"></activity>
+		
+		
+		<activity android:name="com.balaji.aakash.FifteenthActivity18"></activity>
+		
+		<activity android:name="com.balaji.aakash.FifthActivity18"></activity>
+		
+		<activity android:name="com.balaji.aakash.SixteenthActivity18"></activity>
+		
+		<activity android:name="com.balaji.aakash.EighthActivity18"></activity>
+		
+		<activity android:name="com.balaji.aakash.SeventhActivity18"></activity>
+		
+
+		<activity android:name="com.balaji.aakash.EighteenthActivity18"></activity>
+		
+		<activity android:name="com.balaji.aakash.FourteenthActivity18"></activity>
+		
+		<activity android:name="com.balaji.aakash.FourthActivity18"></activity>
+		
+
+		<activity android:name="com.balaji.aakash.SixthActivity18"></activity>
+
+		
+		
+    </application>
+	
+
+</manifest>

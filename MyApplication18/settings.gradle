@@ -1,0 +1,1 @@
+include ':app', ':library', ':listviewanimations_lib-core-slh_3.1.0', ':listviewanimations_lib-core_3.1.0', ':listviewanimations_lib-manipulation_3.1.0'

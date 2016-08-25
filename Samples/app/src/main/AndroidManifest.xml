@@ -1,0 +1,334 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.haarman.listviewanimations.samples">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.haarman.listviewanimations.samples.PullToRefreshListActivity"
+            android:label="PtR ListView" >
+        </activity>
+        <activity android:name="com.haarman.listviewanimations.samples.LauncherActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.haarman.listviewanimations.samples.PullToRefreshListFragmentActivity"
+            android:label="PtR ListView Fragment" >
+        </activity>
+        <activity
+            android:name="com.haarman.listviewanimations.samples.PullToRefreshListInViewPagerActivity"
+            android:label="PtR ListView in ViewPager" >
+        </activity>
+        <activity
+            android:name="com.haarman.listviewanimations.samples.PullToRefreshGridActivity"
+            android:label="PtR GridView" >
+        </activity>
+        <activity
+            android:name="com.haarman.listviewanimations.samples.PullToRefreshExpandableListActivity"
+            android:label="PtR ExpandableListView" >
+        </activity>
+        <activity
+            android:name="com.haarman.listviewanimations.samples.PullToRefreshWebViewActivity"
+            android:label="PtR WebView" >
+        </activity>
+        <activity
+            android:name="com.haarman.listviewanimations.samples.PullToRefreshScrollViewActivity"
+            android:label="PtR ScrollView" >
+        </activity>
+        <activity
+            android:name="com.haarman.listviewanimations.samples.PullToRefreshHorizontalScrollViewActivity"
+            android:label="PtR HorizontalScrollView" >
+        </activity>
+        <activity
+            android:name="com.haarman.listviewanimations.samples.PullToRefreshViewPagerActivity"
+            android:label="PtR ViewPager" >
+        </activity>
+        <activity
+            android:name="com.haarman.listviewanimations.samples.PullToRefreshWebView2Activity"
+            android:label="PtR WebView Advanced" >
+        </activity>
+
+        <activity android:name="com.haarman.listviewanimations.samples.FirstActivity"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.SecondActivity"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.ThirdActivity"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.FourthActivity"></activity>
+
+        <activity android:name="com.haarman.listviewanimations.samples.FifthActivity"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.SixthActivity"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.SeventhActivity"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.EighthActivity"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.NinthActivity"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.TenthActivity"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.EleventhActivity"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.TwelthActivity"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.ThirteenthActivity"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.FourteenthActivity"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.FifteenthActivity"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.SixteenthActivity"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.SeventeenthActivity"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.EighteenthActivity"></activity>
+
+        <activity android:name="com.haarman.listviewanimations.samples.Eighteenth1"></activity>
+
+        <activity android:name="com.haarman.listviewanimations.samples.First1"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.First2"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.First3"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.First4"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.First5"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.First6"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.First7"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.First8"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.First9"></activity>
+
+        <activity android:name="com.haarman.listviewanimations.samples.Second1"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Second2"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Second3"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Second4"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Second5"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Second6"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Second7"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Second8"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Second9"></activity>
+
+        <activity android:name="com.haarman.listviewanimations.samples.Third1"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Third2"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Third3"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Third4"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Third5"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Third6"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Third7"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Third8"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Third9"></activity>
+
+        <activity android:name="com.haarman.listviewanimations.samples.Fourth1"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Fourth2"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Fourth3"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Fourth4"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Fourth5"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Fourth6"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Fourth7"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Fourth8"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Fourth9"></activity>
+
+
+        <activity android:name="com.haarman.listviewanimations.samples.Fifth1"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Fifth2"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Fifth3"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Fifth4"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Fifth5"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Fifth6"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Fifth7"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Fifth8"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Fifth9"></activity>
+
+        <activity android:name="com.haarman.listviewanimations.samples.Sixth1"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Sixth2"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Sixth3"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Sixth4"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Sixth5"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Sixth6"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Sixth7"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Sixth8"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Sixth9"></activity>
+
+        <activity android:name="com.haarman.listviewanimations.samples.Seventh1"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Seventh2"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Seventh3"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Seventh4"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Seventh5"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Seventh6"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Seventh7"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Seventh8"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Seventh9"></activity>
+
+        <activity android:name="com.haarman.listviewanimations.samples.Eighth1"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Eighth2"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Eighth3"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Eighth4"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Eighth5"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Eighth6"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Eighth7"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Eighth8"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Eighth9"></activity>
+
+
+        <activity android:name="com.haarman.listviewanimations.samples.Ninth1"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Ninth2"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Ninth3"></activity>
+
+
+
+        <activity android:name="com.haarman.listviewanimations.samples.Tenth1"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Tenth2"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Tenth3"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Tenth4"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Tenth5"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Tenth6"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Tenth7"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Tenth8"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Tenth9"></activity>
+
+        <activity android:name="com.haarman.listviewanimations.samples.Eleventh1"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Eleventh2"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Eleventh3"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Eleventh4"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Eleventh5"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Eleventh6"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Eleventh7"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Eleventh8"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Eleventh9"></activity>
+
+        <activity android:name="com.haarman.listviewanimations.samples.Twelth1"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Twelth2"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Twelth3"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Twelth4"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Twelth5"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Twelth6"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Twelth7"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Twelth8"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Twelth9"></activity>
+
+        <activity android:name="com.haarman.listviewanimations.samples.Thirteenth1"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Thirteenth2"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Thirteenth3"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Thirteenth4"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Thirteenth5"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Thirteenth6"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Thirteenth7"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Thirteenth8"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Thirteenth9"></activity>
+
+        <activity android:name="com.haarman.listviewanimations.samples.Fourteenth1"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Fourteenth2"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Fourteenth3"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Fourteenth4"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Fourteenth5"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Fourteenth6"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Fourteenth7"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Fourteenth8"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Fourteenth9"></activity>
+
+        <activity android:name="com.haarman.listviewanimations.samples.Fifteenth1"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Fifteenth2"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Fifteenth3"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Fifteenth4"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Fifteenth5"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Fifteenth6"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Fifteenth7"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Fifteenth8"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Fifteenth9"></activity>
+
+        <activity android:name="com.haarman.listviewanimations.samples.Sixteenth1"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Sixteenth2"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Sixteenth3"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Sixteenth4"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Sixteenth5"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Sixteenth6"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Sixteenth7"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Sixteenth8"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Sixteenth9"></activity>
+
+        <activity android:name="com.haarman.listviewanimations.samples.Seventeenth1"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Seventeenth2"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Seventeenth3"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Seventeenth4"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Seventeenth5"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Seventeenth6"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Seventeenth7"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Seventeenth8"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Seventeenth9"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Eighteenth2"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Eighteenth3"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Eighteenth4"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Eighteenth5"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Eighteenth6"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Eighteenth7"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Eighteenth8"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Eighteenth9"></activity>
+
+        <activity android:name="com.haarman.listviewanimations.samples.Eighteenth10"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Eighteenth11"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Eighteenth12"></activity>
+
+        <activity android:name="com.haarman.listviewanimations.samples.Seventeenth10"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Seventeenth11"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Seventeenth12"></activity>
+
+
+        <activity android:name="com.haarman.listviewanimations.samples.Sixteenth10"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Sixteenth11"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Sixteenth12"></activity>
+
+        <activity android:name="com.haarman.listviewanimations.samples.Fifteenth10"></activity>
+
+        <activity android:name="com.haarman.listviewanimations.samples.Fourteenth10"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Fourteenth11"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Fourteenth12"></activity>
+
+        <activity android:name="com.haarman.listviewanimations.samples.Thirteenth10"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Thirteenth11"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Thirteenth12"></activity>
+
+        <activity android:name="com.haarman.listviewanimations.samples.Twelth10"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Twelth11"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Twelth12"></activity>
+
+        <activity android:name="com.haarman.listviewanimations.samples.Tenth10"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Tenth11"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Tenth12"></activity>
+
+
+        <activity android:name="com.haarman.listviewanimations.samples.Eighth10"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Eighth11"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Eighth12"></activity>
+
+
+        <activity android:name="com.haarman.listviewanimations.samples.Seventh10"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Seventh11"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Seventh12"></activity>
+
+
+        <activity android:name="com.haarman.listviewanimations.samples.Sixth10"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Sixth11"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Sixth12"></activity>
+
+
+        <activity android:name="com.haarman.listviewanimations.samples.Fifth10"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Fifth11"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Fifth12"></activity>
+
+        <activity android:name="com.haarman.listviewanimations.samples.Fourth10"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Fourth11"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Fourth12"></activity>
+
+        <activity android:name="com.haarman.listviewanimations.samples.Second10"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Second11"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.Second12"></activity>
+
+
+        <activity android:name="com.haarman.listviewanimations.samples.First10"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.First11"></activity>
+        <activity android:name="com.haarman.listviewanimations.samples.First12"></activity>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </application>
+
+</manifest>

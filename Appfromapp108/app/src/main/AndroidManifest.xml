@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.venki18.aakash.appfromapp108">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/balaji"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.venki18.aakash.appfromapp108.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.FirstActivity"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.SecondActivity"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.ThirdActivity"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.FourthActivity"></activity>
+
+        <activity android:name="com.venki18.aakash.appfromapp108.FifthActivity"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.SixthActivity"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.SeventhActivity"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.EighthActivity"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.NinthActivity"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.TenthActivity"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.EleventhActivity"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.TwelthActivity"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.ThirteenthActivity"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.FourteenthActivity"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.FifteenthActivity"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.SixteenthActivity"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.SeventeenthActivity"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.EighteenthActivity"></activity>
+
+        <activity android:name="com.venki18.aakash.appfromapp108.Eighteenth1"></activity>
+
+        <activity android:name="com.venki18.aakash.appfromapp108.First1"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.First2"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.First3"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.First4"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.First5"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.First6"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.First7"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.First8"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.First9"></activity>
+
+        <activity android:name="com.venki18.aakash.appfromapp108.Second1"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.Second2"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.Second3"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.Second4"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.Second5"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.Second6"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.Second7"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.Second8"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.Second9"></activity>
+
+        <activity android:name="com.venki18.aakash.appfromapp108.Third1"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.Third2"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.Third3"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.Third4"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.Third5"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.Third6"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.Third7"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.Third8"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.Third9"></activity>
+
+        <activity android:name="com.venki18.aakash.appfromapp108.Fourth1"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.Fourth2"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.Fourth3"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.Fourth4"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.Fourth5"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.Fourth6"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.Fourth7"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.Fourth8"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.Fourth9"></activity>
+
+
+        <activity android:name="com.venki18.aakash.appfromapp108.Fifth1"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.Fifth2"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.Fifth3"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.Fifth4"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.Fifth5"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.Fifth6"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.Fifth7"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.Fifth8"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.Fifth9"></activity>
+
+        <activity android:name="com.venki18.aakash.appfromapp108.Sixth1"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.Sixth2"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.Sixth3"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.Sixth4"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.Sixth5"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.Sixth6"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.Sixth7"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.Sixth8"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.Sixth9"></activity>
+
+        <activity android:name="com.venki18.aakash.appfromapp108.Seventh1"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.Seventh2"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.Seventh3"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.Seventh4"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.Seventh5"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.Seventh6"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.Seventh7"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.Seventh8"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.Seventh9"></activity>
+
+        <activity android:name="com.venki18.aakash.appfromapp108.Eighth1"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.Eighth2"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.Eighth3"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.Eighth4"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.Eighth5"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.Eighth6"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.Eighth7"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.Eighth8"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.Eighth9"></activity>
+
+
+        <activity android:name="com.venki18.aakash.appfromapp108.Ninth1"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.Ninth2"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.Ninth3"></activity>
+
+
+
+        <activity android:name="com.venki18.aakash.appfromapp108.Tenth1"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.Tenth2"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.Tenth3"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.Tenth4"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.Tenth5"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.Tenth6"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.Tenth7"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.Tenth8"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.Tenth9"></activity>
+
+        <activity android:name="com.venki18.aakash.appfromapp108.Eleventh1"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.Eleventh2"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.Eleventh3"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.Eleventh4"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.Eleventh5"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.Eleventh6"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.Eleventh7"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.Eleventh8"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.Eleventh9"></activity>
+
+        <activity android:name="com.venki18.aakash.appfromapp108.Twelth1"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.Twelth2"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.Twelth3"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.Twelth4"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.Twelth5"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.Twelth6"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.Twelth7"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.Twelth8"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.Twelth9"></activity>
+
+        <activity android:name="com.venki18.aakash.appfromapp108.Thirteenth1"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.Thirteenth2"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.Thirteenth3"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.Thirteenth4"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.Thirteenth5"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.Thirteenth6"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.Thirteenth7"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.Thirteenth8"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.Thirteenth9"></activity>
+
+        <activity android:name="com.venki18.aakash.appfromapp108.Fourteenth1"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.Fourteenth2"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.Fourteenth3"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.Fourteenth4"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.Fourteenth5"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.Fourteenth6"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.Fourteenth7"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.Fourteenth8"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.Fourteenth9"></activity>
+
+        <activity android:name="com.venki18.aakash.appfromapp108.Fifteenth1"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.Fifteenth2"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.Fifteenth3"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.Fifteenth4"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.Fifteenth5"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.Fifteenth6"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.Fifteenth7"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.Fifteenth8"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.Fifteenth9"></activity>
+
+        <activity android:name="com.venki18.aakash.appfromapp108.Sixteenth1"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.Sixteenth2"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.Sixteenth3"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.Sixteenth4"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.Sixteenth5"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.Sixteenth6"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.Sixteenth7"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.Sixteenth8"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.Sixteenth9"></activity>
+
+        <activity android:name="com.venki18.aakash.appfromapp108.Seventeenth1"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.Seventeenth2"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.Seventeenth3"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.Seventeenth4"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.Seventeenth5"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.Seventeenth6"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.Seventeenth7"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.Seventeenth8"></activity>
+        <activity android:name="com.venki18.aakash.appfromapp108.Seventeenth9"></activity>
+
+
+
+
+
+
+
+    </application>
+
+
+</manifest>

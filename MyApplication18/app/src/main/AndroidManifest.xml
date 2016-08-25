@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.shankara.venki.narayana">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/shankara"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.shankara.venki.narayana.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.shankara.venki.narayana.Bhajago"></activity>
+        <activity android:name="com.shankara.venki.narayana.Mahaganesha"></activity>
+        <activity android:name="com.shankara.venki.narayana.Kanaka"></activity>
+        <activity android:name="com.shankara.venki.narayana.Annapurna"></activity>
+        <activity android:name="com.shankara.venki.narayana.Narayana"></activity>
+        <activity android:name="com.shankara.venki.narayana.Govinda"></activity>
+        <activity android:name="com.shankara.venki.narayana.Lalitapancha"></activity>
+        <activity android:name="com.shankara.venki.narayana.ShivaPanchakshari"></activity>
+        <activity android:name="com.shankara.venki.narayana.Nirvana"></activity>
+        <activity android:name="com.shankara.venki.narayana.Jyotir"></activity>
+        <activity android:name="com.shankara.venki.narayana.Actyuta"></activity>
+        <activity android:name="com.shankara.venki.narayana.Ramapancha"></activity>
+        <activity android:name="com.shankara.venki.narayana.Database"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,2 @@
+configurations.maybeCreate("default")
+artifacts.add("default", file('listviewanimations_lib-core_3.1.0.jar'))
